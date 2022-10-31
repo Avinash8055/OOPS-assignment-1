@@ -1,0 +1,17 @@
+using System;
+namespace one
+{
+class conditional
+{
+static void main ( string [] args)
+int a=Convert.ToInt16.(Console.ReadLine());
+if(a/2==0)
+{
+Console.WriteLine("a is even no ");
+}
+else
+{
+Console.WriteLine(" a is odd no");
+}
+}
+}

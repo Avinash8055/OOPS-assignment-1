@@ -1,0 +1,37 @@
+using system;
+namespace arithematic
+{
+    class program
+    {
+        static void main(string[] args)
+        int a = 10,b=20,c;
+        int ch=console.ReadLine();
+        switch(ch)
+        {
+            case 1:
+            c=a+b;
+            console.Writeline(" addtion "+c);
+            break;
+            
+            case 2:
+            c=a-b;
+            console.Writeline(" subtraction "+c);
+            break;
+            
+            case 3:
+            c=a*b;
+            console.Writeline(" mulitplication "+c);
+            break;
+            
+            case 4:
+            c=a/b;
+            console.Writeline(" division "+c);
+            break;
+            
+            case 5:
+            c=a%b;
+            console.Writeline(" modulus "+c);
+            break;
+        }
+    }
+}

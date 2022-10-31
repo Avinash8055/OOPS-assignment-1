@@ -1,0 +1,13 @@
+using  System;
+namespace loop
+{
+class program
+{
+Int n= Convert.ToInt16.(Console.Readline());
+for(int i=0;i<=n;i++)
+{
+i++;
+Console.WriteLine(i);
+}
+}
+}
